@@ -1,7 +1,7 @@
 [
     {
         "id": "zapato-01",
-        "titulo": "Zapatos 01",
+        "titulo": "Zapatos Adidas",
         "imagen": "./img/Zapatos/Nike1.jpeg",
         "categoria": {
             "nombre": "Zapatos",
