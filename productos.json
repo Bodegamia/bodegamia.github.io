@@ -185,7 +185,7 @@
         "imagen": "./img/pantalones/05.jpg",
         "categoria": {
             "nombre": "Pantalones",
-            "id": "pantalones"
+            "id": "Zapatillas"
         },
         "precio": 1000
     }
