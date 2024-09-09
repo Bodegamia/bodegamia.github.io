@@ -6,8 +6,6 @@
         "categoria": {
             "nombre": "Zapatillas",
             "id": "Zapatillas"
-        },
-        "precio": 1000
     },
     {
         "id": "zapato-02",
