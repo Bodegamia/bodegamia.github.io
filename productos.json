@@ -1,7 +1,7 @@
 [
     {
         "id": "zapato-01",
-        "titulo": "Zapatos Adidas",
+        "titulo": "Zapatos Nike negros",
         "imagen": "./img/Zapatos/Nike1.jpeg",
         "categoria": {
             "nombre": "Zapatillas",
@@ -9,7 +9,7 @@
     },
     {
         "id": "zapato-02",
-        "titulo": "Zapatos Versacce",
+        "titulo": "Zapatos Versacce negros",
         "imagen": "./img/Zapatos/Verssage1.jpeg",
         "categoria": {
             "nombre": "Zapatillas",
@@ -41,6 +41,55 @@
         "id": "zapato-05",
         "titulo": "Zapatos Adidas",
         "imagen": "./img/Zapatos/Adidas1.jpeg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "Zapatillas"
+        },
+        "precio": 1000
+    },
+    [
+    {
+        "id": "zapato-06",
+        "titulo": "Zapatos CK negros",
+        "imagen": "./img/Zapatos/Calvinklein1.jpeg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "Zapatillas"
+    },
+    {
+        "id": "zapato-07",
+        "titulo": "Zapatos Gucci blancos",
+        "imagen": "./img/Zapatos/Gucci1.jpeg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "Zapatillas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "zapato-08",
+        "titulo": "Zapatos Gucci Negros",
+        "imagen": "./img/Zapatos/Gucci2.jpeg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "Zapatillas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "zapato-09",
+        "titulo": "Zapatos Lecoq blancos",
+        "imagen": "./img/Zapatos/Lecoq1.jpeg",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "Zapatillas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "zapato-10",
+        "titulo": "Zapatos Versacce blancos",
+        "imagen": "./img/Zapatos/Versacce2.jpeg",
         "categoria": {
             "nombre": "Zapatillas",
             "id": "Zapatillas"
