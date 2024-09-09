@@ -1,19 +1,21 @@
 [
     {
         "id": "zapato-01",
-        "titulo": "Zapatos Nike negros",
+        "titulo": "Zapatos Nike",
         "imagen": "./img/Zapatos/Nike1.jpeg",
         "categoria": {
-            "nombre": "Zapatillas",
-            "id": "Zapatillas"
+            "nombre": "Zapatos",
+            "id": "Zapatos"
+        },
+        "precio": 1000
     },
     {
         "id": "zapato-02",
-        "titulo": "Zapatos Versacce negros",
+        "titulo": "Zapatos Versacce",
         "imagen": "./img/Zapatos/Verssage1.jpeg",
         "categoria": {
-            "nombre": "Zapatillas",
-            "id": "Zapatillas"
+            "nombre": "Zapatos",
+            "id": "Zapatos"
         },
         "precio": 1000
     },
@@ -22,8 +24,8 @@
         "titulo": "Zapatos Lacoste",
         "imagen": "./img/Zapatos/Lacoste1.jpeg",
         "categoria": {
-            "nombre": "Zapatillas",
-            "id": "Zapatillas"
+            "nombre": "Zapatos",
+            "id": "Zapatos"
         },
         "precio": 1000
     },
@@ -32,8 +34,8 @@
         "titulo": "Zapatos converse",
         "imagen": "./img/Zapatos/Converse1.jpeg",
         "categoria": {
-            "nombre": "Zapatillas",
-            "id": "Zapatillas"
+            "nombre": "Zapatos",
+            "id": "Zapatos"
         },
         "precio": 1000
     },
@@ -42,8 +44,8 @@
         "titulo": "Zapatos Adidas",
         "imagen": "./img/Zapatos/Adidas1.jpeg",
         "categoria": {
-            "nombre": "Zapatillas",
-            "id": "Zapatillas"
+            "nombre": "Zapatos",
+            "id": "Zapatos"
         },
         "precio": 1000
     },
