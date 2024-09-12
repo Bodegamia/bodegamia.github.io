@@ -6,41 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CarpiShop</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-
     <div class="wrapper">
-        <header class="header-mobile">
-            <h1 class="logo">BODEGA MIA</h1>
-            <button class="open-menu" id="open-menu">
-                <i class="bi bi-list"></i>
-            </button>
-        </header>
         <aside>
-            <button class="close-menu" id="close-menu">
-                <i class="bi bi-x"></i>
-            </button>
             <header>
-                <h1 class="logo">BODEGA MIA</h1>
+                <h1 class="logo">Bodega Mia</h1>
             </header>
             <nav>
                 <ul class="menu">
                     <li>
-                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
+                        <button class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> Todos los productos</button>
                     </li>
                     <li>
-                        <button id="Zapatillas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Zapatillas</button>
+                        <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Zapatillas</button>
                     </li>
                     <li>
-                        <button id="camisetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Sandalias</button>
+                        <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Sandalias</button>
                     </li>
                     <li>
-                        <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Relojes</button>
-                    </li>
-                    <li>
-                        <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Lociones</button>
+                        <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Relojes</button>
                     </li>
                 </ul>
             </nav>
@@ -49,15 +35,1549 @@
             </footer>
         </aside>
         <main>
-            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
-            <div id="contenedor-productos" class="contenedor-productos">
-                <!-- Esto se va a rellenar con JS -->
+            <h2 class="titulo-principal">Todos los productos</h2>
+            <div class="contenedor-productos">
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Calvinklein1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Ck Negros</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Gucci1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Gucci Negros</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Gucci2.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Gucci Blancas</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Lecoq1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Leqoq</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Versacce2.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Versacce Blancas</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Casual1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Casuales Negras</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Deportivo1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Deportivas Negras</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Lacoste1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Lacoste Negros</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Lacoste2.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Lacoste Blancos</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/DG1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas DG Negras</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Nike1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Nike Gris</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Pff1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Philiff Flein Negros</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Casual2.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Casuales Negras</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Dakley1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Dakley Negros</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Diorbotin1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Dior botin Negros</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/zapatos/Kenso1.jpeg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas Kenso Negras</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/01.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 1</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/02.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 2</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/03.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 3</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                <div class="producto">
+                    <img class="producto-imagen" src="img/abrigos/04.jpg" alt="">
+                    <div class="producto-detalles">
+                        <h3 class="producto-titulo">Zapatillas 4</h3>
+                        <p class="producto-precio">$1000</p>
+                        <button class="producto-agregar">Agregar</button>
+                    </div>
+                </div>
+                
             </div>
         </main>
     </div>
     
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script src="main.js"></script>
-    <script src="menu.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
